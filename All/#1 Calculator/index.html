@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="calculator" class="container mt-5 pt-5">
+        <div id="content-container" class="container col-10">
+            <div class="row justify-content-center mb-3">
+                <input type="text" id="result" class="col-12 mb-4" value="0">
+            </div>
+            <div id="input-container" class="container">
+                <div class="row justify-content-center justify-content-between mb-4">
+                    <button onclick="numC()" type="button" class="col-2 number">c</button>
+                    <button onclick="changeSign()" type="button" class="col-2 number">+/-</button>
+                    <button onclick="numDiv()" type="button" class="col-2 number">÷</button>
+                    <button onclick="numMul()" type="button" class="col-2 number">x</button>
+                </div>
+                <div class="row justify-content-center justify-content-between mb-4">
+                    <button onclick="num7()" type="button" class="col-2 number">7</button>
+                    <button onclick="num8()" type="button" class="col-2 number">8</button>
+                    <button onclick="num9()" type="button" class="col-2 number">9</button>
+                    <button onclick="numSub()" type="button" class="col-2 number">-</button>
+                </div>
+                <div class="row justify-content-center justify-content-between mb-4">
+                    <button onclick="num4()" type="button" class="col-2 number">4</button>
+                    <button onclick="num5()" type="button" class="col-2 number">5</button>
+                    <button onclick="num6()" type="button" class="col-2 number">6</button>
+                    <button onclick="numAdd()" type="button" class="col-2 number">+</button>
+                </div>
+                <div class="row">
+                    <div class="container col-10 m-0 p-0">
+                        <div class="row justify-content-center justify-content-between m-0 p-0 mb-4">
+                                <button onclick="num1()" type="button" class="bottom-nums number">1</button>
+                                <button onclick="num2()" type="button" class="bottom-nums number">2</button>
+                                <button onclick="num3()" type="button" class="bottom-nums shift number">3</button>
+                        </div>
+                        <div class="row justify-content-center justify-content-between m-0 p-0">
+                                <button onclick="num0()" type="button" class="zero number">0</button>
+                                <button onclick="decimal()" type="button" class="bottom-nums shift number">.</button>
+                        </div>
+                    </div>
+                    <div class="container col-2 m-0 p-0">
+                        <button onclick="equals()" type="button" class="col-12 number equals">=</button>
+                    </div>
+                </div>
+                <!-- <div class="row justify-content-center justify-content-between mb-4">
+                    <button onclick="yay()" type="button" class="col-2 number">0</button>
+                    <button onclick="yay()" type="button" class="col-2 number">.</button>
+                    <button onclick="yay()" type="button" class="col-2 number"></button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- <div class="row justify-content-center">
+            <input type="text" id="result" class="col-10">
+        </div>
+        <div class="row justify-content-center justify-content-between">
+            <input type="text" id="result" class="col-2">
+            <input type="text" id="result" class="col-2">
+            <input type="text" id="result" class="col-2">
+            <input type="text" id="result" class="col-2">
+        </div> -->
