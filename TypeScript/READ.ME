@@ -1,0 +1,19 @@
+Author: Martin Vera
+
+To run this code you must:
+- install nodejs
+- command: npm install -g typescript
+
+To Compile Typescript to Javascript:
+- command: tsc fileName.ts
+
+Configure all Typescript files in folder to Javascript:
+- command: tsc --init
+    this command above adds a tsconfig.json file which has a lot of options you can set.
+- command: tsc
+    compile all typescript files in the folder while taking the tsconfig.json file into account
+- If you target a file by using command: tsc fileName.ts
+    then the tsconfig.json file is ignored when compiling
+
+To execute a Javascriptfile:
+- command: node fileName.js
