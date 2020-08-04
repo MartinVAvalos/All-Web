@@ -1,4 +1,4 @@
-Authors: Martin Vera & Emanuel Fonseca
+Author: Martin Vera
 
 Description:
     Basic Javascript Calculator
