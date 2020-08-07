@@ -50,8 +50,8 @@ numAdd = () => {
     operator = "+";
     result = result + newNum;
     newNum = 0;
-    console.log("result" +result);
-    console.log("newNum" +newNum);
+    // console.log("result" +result);
+    // console.log("newNum" +newNum);
 }
 numSub = () => {
     if(operator !== null) {
@@ -102,8 +102,8 @@ calculate = (key) => {
             display(newNum);
         }
         else {
-            console.log("new stuff " + newNum);
-            console.log("new key " + key);
+            // console.log("new stuff " + newNum);
+            // console.log("new key " + key);
             newNum = String(newNum) + String(key);
             newNum = Number(newNum);
             display(newNum);
