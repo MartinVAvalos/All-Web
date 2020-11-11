@@ -7,7 +7,7 @@ display = (display) => {
     document.getElementById("result").value = display;
 }
 
- numC = () => {
+numC = () => {
     result = 0;
     newNum = 0;
     operator = null;
